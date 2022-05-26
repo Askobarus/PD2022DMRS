@@ -7,7 +7,7 @@ for i = 1:50
     fileID = strcat('ind', num2str(i), '.txt');
     writematrix(A, fileID, 'Delimiter', '\t');
     
-    tic
+    tic 
     
     A1 = readmatrix(fileID);
     
